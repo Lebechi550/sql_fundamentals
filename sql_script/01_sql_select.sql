@@ -1,6 +1,6 @@
 USE hng;
 -- Explanation:
--- USEA keyword activates the database (hng) to use
+-- USE keyword activates the database (hng) to use
 SELECT * 
 FROM donation_data;
 -- Explanation: 
@@ -10,6 +10,10 @@ SELECT first_name, last_name, email
 FROM donation_data;
 -- Explanation: The donation_data has columns named 'first_name', 'last_name', and 'email'
 -- The query filters the record to retrieve only the specified columns from doanation_data table
+
+
+-- DISTINCT: Retrieves unique values in a column
+
 
 SELECT DISTINCT state
 FROM donation_data;
