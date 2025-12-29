@@ -32,6 +32,14 @@ ORDER BY job_field, state;
 -- Explanation:
 -- For every job_field, the query returns the number of donors from each job field in each state
 
+-- Find the number of donors in each state whose donation is 400 and above
+SELECT COUNT(id), state
+FROM donation_data
+WHERE donation >= 400
+GROUP BY state;
+-- Explanation:
+-- The query returns the number of donors in each state where the donation is 400 and above. 
+
 -- Write a query to find the minimum donation in each state
 SELECT MIN(donation) AS 'least Donation Amount', state
 FROM donation_data
