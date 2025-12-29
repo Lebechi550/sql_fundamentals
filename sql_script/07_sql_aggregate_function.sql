@@ -16,11 +16,21 @@ SELECT COUNT(*)
 FROM donation_data;
 -- Explanation: The query returns the number of records on the table
 
+-- How many donors provided a university name
+SELECT COUNT(university)
+FROM donor_data2;
+-- Explanation: The query retuns the number of donors who provided a university name, that where 'university' is not null
+
 -- Using COUNT function with DISTINCT statement will help you count unique values
 
 SELECT COUNT(DISTINCT (state))
 FROM donation_data;
 -- Explanation: The retrieves the number of unique states in the table
+
+-- Find the number of unique universities
+SELECT COUNT(DISTINCT(university))
+FROM donor_data2;
+-- Explanation: The query returns the number of unique universities in the table
 
 -- Write a query to find the number of job_fields
 SELECT COUNT(DISTINCT (job_field))
