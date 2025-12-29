@@ -33,3 +33,18 @@ UNION
 SELECT name FROM category;
 -- Explanation:
 -- The query retrieves a distinct list of film title and category names
+
+-- Write a query to retrieve the first names of actors and customers with duplicates
+SELECT first_name FROM actor
+UNION ALL
+SELECT first_name FROM customer;
+-- Explanation:
+-- The query retrieves first names from both tables including their duplicate rows;
+
+-- Write a query to find all uniqe cities from the 'address' table and the 'city' table
+ SELECT address AS city FROM address
+ UNION
+ SELECT city FROM city;
+ -- Explanation:
+ -- The query retrieves all the unique addresses from the address table as city combined with the unique city names in the city table. 
+ 
