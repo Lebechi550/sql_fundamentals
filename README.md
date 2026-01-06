@@ -46,7 +46,7 @@ SQL projects tied to dashboards (Power BI / Excel)
 
 Author
 
-Juliet Lebechi
-Aspiring Data Analyst | SQL • Excel • Power BI • Python
+Juliet Lebechi Ugwu
+Data Analyst | SQL • Excel • Power BI • Python
 
 
