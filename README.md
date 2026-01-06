@@ -47,6 +47,7 @@ SQL projects tied to dashboards (Power BI / Excel)
 Author
 
 Juliet Lebechi Ugwu
+
 Data Analyst | SQL • Excel • Power BI • Python
 
 
