@@ -40,16 +40,16 @@ RENAME COLUMN item_price TO price;
   RENAME TO accessories;
 
 -- DROP Statement
--- IN DROP Statement, we have DROP TABLE AND DROP DATABASE
-
--- DROP DATABASE is used to drop an existing SQL Database.
-DROP DATABASE lutech;
--- drops the database
+-- In DROP Statement, order matters, always drop the table before you drop the database. If you drop the database first, you wipe out everything at once.
 
 -- The DROP TABLE statement is used to delete an existing table in a database. Dropping a table will result in loss of complete information stored in the table.
-DROP TABLE accessories;
+DROP TABLE IF EXISTS accessories;
 -- deletes the table and every data stored in it.
+-- Using the 'IF EXISTS' clause allows scripts to be run multiple times without failing or throwing an error if the object has already been deleted.
 
+-- DROP DATABASE is used to drop an SQL Database.
+DROP DATABASE IF EXISTS lutech;
+-- drops the database
 
 -- TRUNCATE Statement
 -- The TRUNCATE TABLE statement deletes the data inside a table, but not the table itself.
