@@ -1,4 +1,4 @@
-CREATE DATABASE lutech; -- created a new SQL database named lutech
+CREATE DATABASE lutech; -- creates a new SQL database named lutech
 CREATE DATABASE patient_mgt_system; -- creates a new SQL database named patient_mgt_system
 
 -- Verify Database creation
