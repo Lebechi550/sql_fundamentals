@@ -28,7 +28,7 @@ Using constraints like NOT NULL, UNIQUE, CHECK, and DEFAULT to ensure data quali
 Utilizing AUTO_INCREMENT and creating VIEWS to simplify complex queries and enable dynamic reporting.
 
 ### Technical Topics Covered
-* Data Manipulation Language (DML): querying, filtering, aggregations, subqueries, and conditional logic
+* Data Manipulation Language (DML): querying, filtering, aggregate functions, subqueries, and conditional logic
 * Data Definition Language (DDL): creating and modifying database structures
 * Database Architecture: constraints, relational integrity, temporal data handling, and views for reporting
 
